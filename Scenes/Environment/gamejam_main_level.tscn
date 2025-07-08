@@ -11,7 +11,7 @@
 [ext_resource type="PackedScene" uid="uid://blgohsh2xhruv" path="res://Scenes/Characters/Player/player.tscn" id="9_axdiw"]
 [ext_resource type="PackedScene" uid="uid://cye0yvx322c16" path="res://Scenes/Characters/Enemies/Sword Goblin.tscn" id="10_4ak08"]
 [ext_resource type="PackedScene" uid="uid://do0sxkj2ld6ge" path="res://Scenes/Characters/Enemies/Bow Goblin.tscn" id="11_gq501"]
-[ext_resource type="Script" path="res://Scenes/Environment/level_completion_handler.gd" id="12_qi41m"]
+[ext_resource type="Script" uid="uid://cyn852wyyyhes" path="res://Scenes/Environment/level_completion_handler.gd" id="12_qi41m"]
 [ext_resource type="AudioStream" uid="uid://bttkxuywua7hn" path="res://Assets/sounds/music/TGS Pirate Jam (Main Theme) v1.2 Idea 2_LOOP.mp3" id="13_2x367"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_v5dfh"]

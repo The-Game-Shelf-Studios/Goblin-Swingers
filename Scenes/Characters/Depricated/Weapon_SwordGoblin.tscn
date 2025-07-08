@@ -1,6 +1,6 @@
 [gd_scene load_steps=69 format=4 uid="uid://cor6ku7pkx16j"]
 
-[ext_resource type="Script" path="res://Scripts/Player/weapon.gd" id="1_wt2h7"]
+[ext_resource type="Script" uid="uid://kj1meakhdrug" path="res://Scripts/Player/weapon.gd" id="1_wt2h7"]
 [ext_resource type="Material" uid="uid://c7ireh7m53ghd" path="res://Assets/Materials/Goblins and Player/GoblinGold.tres" id="2_ys07y"]
 [ext_resource type="Material" uid="uid://bmpvbvrscwc0f" path="res://Assets/Materials/Goblins and Player/GoblinBrown.tres" id="3_0dv4x"]
 [ext_resource type="Material" uid="uid://cpcu7luqhw23j" path="res://Assets/Materials/Goblins and Player/GoblinBlack.tres" id="4_k5q2y"]
@@ -5006,26 +5006,26 @@ tracks/29/keys = PackedFloat32Array(0, 1, -0.707106, -6.97622e-06, -6.03845e-06,
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fw1cw"]
 _data = {
-"Goblin Poses": SubResource("Animation_j1l7x"),
-"Goblin Poses_001": SubResource("Animation_ob4la"),
-"GoblinAttack1": SubResource("Animation_l2f7m"),
-"GoblinAttack2": SubResource("Animation_5rq31"),
-"GoblinBeingSwung1": SubResource("Animation_f22d3"),
-"GoblinDeath": SubResource("Animation_kpyov"),
-"GoblinGrab1Alive": SubResource("Animation_r3s0q"),
-"GoblinGrab1Dead": SubResource("Animation_8dgbq"),
-"GoblinGrab2Dead": SubResource("Animation_wnlqx"),
-"GoblinRangedIdle": SubResource("Animation_n5ryo"),
-"GoblinRangedRun": SubResource("Animation_ty4bu"),
-"GoblinRanggedAttack": SubResource("Animation_iw58i"),
-"GoblinRun": SubResource("Animation_su4yd"),
-"GoblinSwordIdle": SubResource("Animation_lx7s8"),
-"OrcCrossbowGrab": SubResource("Animation_b0lwx"),
-"OrcCrossbowShoot": SubResource("Animation_vwjyi"),
-"OrcLeftHandPunch": SubResource("Animation_bkvij"),
-"OrcPoses": SubResource("Animation_jenld"),
-"OrcSwordGrab": SubResource("Animation_7nrks"),
-"OrcSwordSwing": SubResource("Animation_dsswo")
+&"Goblin Poses": SubResource("Animation_j1l7x"),
+&"Goblin Poses_001": SubResource("Animation_ob4la"),
+&"GoblinAttack1": SubResource("Animation_l2f7m"),
+&"GoblinAttack2": SubResource("Animation_5rq31"),
+&"GoblinBeingSwung1": SubResource("Animation_f22d3"),
+&"GoblinDeath": SubResource("Animation_kpyov"),
+&"GoblinGrab1Alive": SubResource("Animation_r3s0q"),
+&"GoblinGrab1Dead": SubResource("Animation_8dgbq"),
+&"GoblinGrab2Dead": SubResource("Animation_wnlqx"),
+&"GoblinRangedIdle": SubResource("Animation_n5ryo"),
+&"GoblinRangedRun": SubResource("Animation_ty4bu"),
+&"GoblinRanggedAttack": SubResource("Animation_iw58i"),
+&"GoblinRun": SubResource("Animation_su4yd"),
+&"GoblinSwordIdle": SubResource("Animation_lx7s8"),
+&"OrcCrossbowGrab": SubResource("Animation_b0lwx"),
+&"OrcCrossbowShoot": SubResource("Animation_vwjyi"),
+&"OrcLeftHandPunch": SubResource("Animation_bkvij"),
+&"OrcPoses": SubResource("Animation_jenld"),
+&"OrcSwordGrab": SubResource("Animation_7nrks"),
+&"OrcSwordSwing": SubResource("Animation_dsswo")
 }
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_0o1rl"]

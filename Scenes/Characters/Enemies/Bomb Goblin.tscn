@@ -1,7 +1,7 @@
 [gd_scene load_steps=58 format=4 uid="uid://b56blub2s1118"]
 
-[ext_resource type="Script" path="res://Scripts/Enemies/EnemyMovementBomb.gd" id="1_4idqc"]
-[ext_resource type="Script" path="res://Scripts/Enemies/player_tracker_node.gd" id="1_qodbk"]
+[ext_resource type="Script" uid="uid://kb18d0diepmq" path="res://Scripts/Enemies/EnemyMovementBomb.gd" id="1_4idqc"]
+[ext_resource type="Script" uid="uid://c0ksxqawmeuh0" path="res://Scripts/Enemies/player_tracker_node.gd" id="1_qodbk"]
 [ext_resource type="Animation" uid="uid://h4ffsd0d6vmk" path="res://Assets/Goblins/Animations/BombFuse.res" id="3_5fn61"]
 [ext_resource type="Material" uid="uid://bmpvbvrscwc0f" path="res://Assets/Materials/Goblins and Player/GoblinBrown.tres" id="3_5rx66"]
 [ext_resource type="Material" uid="uid://cpcu7luqhw23j" path="res://Assets/Materials/Goblins and Player/GoblinBlack.tres" id="4_p74vu"]
@@ -3126,17 +3126,17 @@ tracks/34/keys = PackedFloat32Array(0, 1, 2.315e-09, -0.737277, 3.55806e-08, 0.6
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_pqqtj"]
 _data = {
-"BombFuse": ExtResource("3_5fn61"),
-"Goblin Poses": SubResource("Animation_fqs8r"),
-"GoblinAttack1": SubResource("Animation_pwtfr"),
-"GoblinAttack2": SubResource("Animation_4h8tn"),
-"GoblinBomberGrab": SubResource("Animation_tjf7a"),
-"GoblinBomberIdle": SubResource("Animation_1m7qa"),
-"GoblinBomberRun": SubResource("Animation_2uksk"),
-"GoblinRangedIdle": SubResource("Animation_x80o2"),
-"GoblinRiderTopIdle": SubResource("Animation_0oef1"),
-"GoblinRun": SubResource("Animation_0nqlo"),
-"GoblinSwordIdle": SubResource("Animation_yols5")
+&"BombFuse": ExtResource("3_5fn61"),
+&"Goblin Poses": SubResource("Animation_fqs8r"),
+&"GoblinAttack1": SubResource("Animation_pwtfr"),
+&"GoblinAttack2": SubResource("Animation_4h8tn"),
+&"GoblinBomberGrab": SubResource("Animation_tjf7a"),
+&"GoblinBomberIdle": SubResource("Animation_1m7qa"),
+&"GoblinBomberRun": SubResource("Animation_2uksk"),
+&"GoblinRangedIdle": SubResource("Animation_x80o2"),
+&"GoblinRiderTopIdle": SubResource("Animation_0oef1"),
+&"GoblinRun": SubResource("Animation_0nqlo"),
+&"GoblinSwordIdle": SubResource("Animation_yols5")
 }
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hbcc0"]
@@ -3174,7 +3174,7 @@ radius = 3.0
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_0eyx6"]
 _data = {
-"BombFuse": ExtResource("3_5fn61")
+&"BombFuse": ExtResource("3_5fn61")
 }
 
 [node name="BombGoblin" type="CharacterBody3D"]

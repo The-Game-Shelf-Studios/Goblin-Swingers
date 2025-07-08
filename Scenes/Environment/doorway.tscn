@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://cr5tbmvafii63"]
 
-[ext_resource type="Script" path="res://Scripts/RoomScripts/doorway.gd" id="1_nudar"]
+[ext_resource type="Script" uid="uid://o388rejd6uip" path="res://Scripts/RoomScripts/doorway.gd" id="1_nudar"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bfo68"]
 albedo_color = Color(0.467112, 0.54559, 0.916938, 1)

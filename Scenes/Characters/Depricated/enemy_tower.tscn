@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://7wqcft2xijw1"]
 
-[ext_resource type="Script" path="res://Scripts/Enemies/EnemyMovementTower.gd" id="1_bj8x1"]
-[ext_resource type="Script" path="res://Scripts/Enemies/player_tracker_node.gd" id="2_qaerr"]
+[ext_resource type="Script" uid="uid://c8q3cgg4cgltx" path="res://Scripts/Enemies/EnemyMovementTower.gd" id="1_bj8x1"]
+[ext_resource type="Script" uid="uid://c0ksxqawmeuh0" path="res://Scripts/Enemies/player_tracker_node.gd" id="2_qaerr"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lh82a"]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=107 format=4 uid="uid://cye0yvx322c16"]
 
-[ext_resource type="Script" path="res://Scripts/Enemies/EnemyMovementSword.gd" id="1_trwu6"]
-[ext_resource type="Script" path="res://Scripts/Enemies/player_tracker_node.gd" id="3_lnkky"]
-[ext_resource type="Script" path="res://Scripts/Utilities/hit_box.gd" id="12_2wc3y"]
+[ext_resource type="Script" uid="uid://h1djik65yue" path="res://Scripts/Enemies/EnemyMovementSword.gd" id="1_trwu6"]
+[ext_resource type="Script" uid="uid://c0ksxqawmeuh0" path="res://Scripts/Enemies/player_tracker_node.gd" id="3_lnkky"]
+[ext_resource type="Script" uid="uid://bebp88wtp0nhd" path="res://Scripts/Utilities/hit_box.gd" id="12_2wc3y"]
 [ext_resource type="AudioStream" uid="uid://d2u5j1gh3j21" path="res://Assets/sounds/Voice Lines/Sword Goblin/Being Hit/Being Hit 1.mp3" id="13_2icfr"]
 [ext_resource type="AudioStream" uid="uid://dm6gnpbl51qfu" path="res://Assets/sounds/Voice Lines/Sword Goblin/Being Hit/Being Hit 2.mp3" id="14_f21s7"]
 [ext_resource type="AudioStream" uid="uid://cedg5h3cryv27" path="res://Assets/sounds/Voice Lines/Sword Goblin/Being Hit/Being Hit 11.mp3" id="15_s7m12"]
@@ -5031,26 +5031,26 @@ tracks/29/keys = PackedFloat32Array(0, 1, -0.707106, -6.97622e-06, -6.03845e-06,
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ih40x"]
 _data = {
-"Goblin Poses": SubResource("Animation_n5fb3"),
-"Goblin Poses_001": SubResource("Animation_fqicj"),
-"GoblinAttack1": SubResource("Animation_ow6bt"),
-"GoblinAttack2": SubResource("Animation_i88ue"),
-"GoblinBeingSwung1": SubResource("Animation_ih7at"),
-"GoblinDeath": SubResource("Animation_kcu84"),
-"GoblinGrab1Alive": SubResource("Animation_ldf8s"),
-"GoblinGrab1Dead": SubResource("Animation_u450h"),
-"GoblinGrab2Dead": SubResource("Animation_df2vk"),
-"GoblinRangedIdle": SubResource("Animation_kdigs"),
-"GoblinRangedRun": SubResource("Animation_72uwm"),
-"GoblinRanggedAttack": SubResource("Animation_iitx7"),
-"GoblinRun": SubResource("Animation_obifs"),
-"GoblinSwordIdle": SubResource("Animation_jnp7f"),
-"OrcCrossbowGrab": SubResource("Animation_r8vow"),
-"OrcCrossbowShoot": SubResource("Animation_jepqg"),
-"OrcLeftHandPunch": SubResource("Animation_eggr6"),
-"OrcPoses": SubResource("Animation_k0nf0"),
-"OrcSwordGrab": SubResource("Animation_1gsnv"),
-"OrcSwordSwing": SubResource("Animation_ver2v")
+&"Goblin Poses": SubResource("Animation_n5fb3"),
+&"Goblin Poses_001": SubResource("Animation_fqicj"),
+&"GoblinAttack1": SubResource("Animation_ow6bt"),
+&"GoblinAttack2": SubResource("Animation_i88ue"),
+&"GoblinBeingSwung1": SubResource("Animation_ih7at"),
+&"GoblinDeath": SubResource("Animation_kcu84"),
+&"GoblinGrab1Alive": SubResource("Animation_ldf8s"),
+&"GoblinGrab1Dead": SubResource("Animation_u450h"),
+&"GoblinGrab2Dead": SubResource("Animation_df2vk"),
+&"GoblinRangedIdle": SubResource("Animation_kdigs"),
+&"GoblinRangedRun": SubResource("Animation_72uwm"),
+&"GoblinRanggedAttack": SubResource("Animation_iitx7"),
+&"GoblinRun": SubResource("Animation_obifs"),
+&"GoblinSwordIdle": SubResource("Animation_jnp7f"),
+&"OrcCrossbowGrab": SubResource("Animation_r8vow"),
+&"OrcCrossbowShoot": SubResource("Animation_jepqg"),
+&"OrcLeftHandPunch": SubResource("Animation_eggr6"),
+&"OrcPoses": SubResource("Animation_k0nf0"),
+&"OrcSwordGrab": SubResource("Animation_1gsnv"),
+&"OrcSwordSwing": SubResource("Animation_ver2v")
 }
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_oefpe"]
@@ -5207,7 +5207,7 @@ bones/2/parent = 1
 bones/2/rest = Transform3D(1, -3.18743e-09, -1.46005e-08, 2.74817e-09, 0.99955, -0.0299867, 1.46896e-08, 0.0299867, 0.99955, -2.498e-16, 0.100045, -4.65662e-10)
 bones/2/enabled = true
 bones/2/position = Vector3(-2.498e-16, 0.100045, -4.65662e-10)
-bones/2/rotation = Quaternion(0.014995, -7.66102e-06, 0.000510359, 0.999887)
+bones/2/rotation = Quaternion(0.0149951, -2.00904e-06, 0.000133479, 0.999888)
 bones/2/scale = Vector3(1, 1, 1)
 bones/3/name = "UpperSpine.Bone.C"
 bones/3/parent = 2
@@ -5228,7 +5228,7 @@ bones/5/parent = 4
 bones/5/rest = Transform3D(0.882353, -0.470588, 1.27099e-07, 0.470588, 0.882353, 2.44088e-07, -2.27011e-07, -1.5556e-07, 1, 1.45679e-09, 0.17, -3.94493e-10)
 bones/5/enabled = true
 bones/5/position = Vector3(1.45679e-09, 0.17, -3.94493e-10)
-bones/5/rotation = Quaternion(-4.52021e-09, 5.90001e-08, -0.28057, 0.959834)
+bones/5/rotation = Quaternion(-4.5202e-09, 5.90001e-08, -0.28057, 0.959834)
 bones/5/scale = Vector3(1, 1, 1)
 bones/6/name = "LowerArm.Bone.L"
 bones/6/parent = 5
@@ -5298,7 +5298,7 @@ bones/15/parent = 14
 bones/15/rest = Transform3D(1, -2.64697e-23, -2.38419e-07, 2.64698e-23, 1, 3.29631e-22, 2.38419e-07, -3.29631e-22, 1, 8.32667e-17, 0.2, -2.32831e-10)
 bones/15/enabled = true
 bones/15/position = Vector3(8.32667e-17, 0.2, -2.32831e-10)
-bones/15/rotation = Quaternion(2.573e-11, -0.000730244, -1.04852e-10, 1)
+bones/15/rotation = Quaternion(2.8537e-11, 0.169464, 1.61842e-10, 0.985536)
 bones/15/scale = Vector3(1, 1, 1)
 bones/16/name = "AngryEyebrows.Object"
 bones/16/parent = 15
@@ -5438,7 +5438,7 @@ bones/35/parent = 1
 bones/35/rest = Transform3D(0.995912, 0.0905365, -1.18494e-05, 0.0904979, -0.995445, 0.0299851, 0.002703, -0.029863, -0.999552, 0.09, 0.0193912, 0.0205907)
 bones/35/enabled = true
 bones/35/position = Vector3(0.09, 0.0193912, 0.0205907)
-bones/35/rotation = Quaternion(0.998861, 0.0453098, 0.000673542, -0.0149791)
+bones/35/rotation = Quaternion(0.99886, 0.0453098, 0.000673542, -0.0149791)
 bones/35/scale = Vector3(1.00002, 1, 1)
 bones/36/name = "LowerLeg.Bone.L"
 bones/36/parent = 35
@@ -5477,7 +5477,7 @@ bones/40/rotation = Quaternion(-0.707106, -6.97622e-06, -6.03845e-06, 0.707107)
 bones/40/scale = Vector3(1, 1, 1)
 
 [node name="GoblinSwordArmorPauldron_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(1, 0.00102082, 4.62445e-08, -0.00102073, 1, -2.21362e-07, -4.64693e-08, 2.20917e-07, 1, -0.15596, 0.624179, 0.00300004)
+transform = Transform3D(1, 0.000266999, 4.63429e-08, -0.00026691, 1, -1.22313e-07, -4.6376e-08, 1.22197e-07, 1, -0.156151, 0.624061, 0.00300002)
 bone_name = "GoblinSwordArmorPauldron.Object"
 bone_idx = 13
 
@@ -5486,7 +5486,7 @@ mesh = SubResource("ArrayMesh_gba68")
 skeleton = NodePath("")
 
 [node name="AngryEyebrows_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, 0.0707778, 0.905928, -0.154897)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, 0.0133464, 0.905996, -0.169307)
 visible = false
 bone_name = "AngryEyebrows.Object"
 bone_idx = 16
@@ -5496,7 +5496,7 @@ mesh = SubResource("ArrayMesh_k0kfu")
 skeleton = NodePath("")
 
 [node name="AngryMouth_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, 0.000688886, 0.782999, -0.18)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, -0.0610166, 0.783016, -0.169489)
 visible = false
 bone_name = "AngryMouth.Object"
 bone_idx = 17
@@ -5506,7 +5506,7 @@ mesh = SubResource("ArrayMesh_sadf8")
 skeleton = NodePath("")
 
 [node name="DeathEyes_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, 0.0507338, 0.859948, -0.156927)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, -0.00618523, 0.860002, -0.164511)
 visible = false
 bone_name = "DeathEyes.Object"
 bone_idx = 18
@@ -5516,7 +5516,7 @@ mesh = SubResource("ArrayMesh_3qlnh")
 skeleton = NodePath("")
 
 [node name="DeathMouth_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, 0.000688886, 0.782999, -0.18)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, -0.0610166, 0.783016, -0.169489)
 visible = false
 bone_name = "DeathMouth.Object"
 bone_idx = 19
@@ -5526,7 +5526,7 @@ mesh = SubResource("ArrayMesh_vs8ut")
 skeleton = NodePath("")
 
 [node name="Eyes_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, 0.0507192, 0.859948, -0.146927)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, -0.00284497, 0.860001, -0.155086)
 bone_name = "Eyes.Object"
 bone_idx = 20
 
@@ -5535,7 +5535,7 @@ mesh = SubResource("ArrayMesh_jmtoh")
 skeleton = NodePath("")
 
 [node name="GoblinEars_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, 0.170504, 0.849826, -0.00675158)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, 0.157024, 0.849958, -0.0632101)
 bone_name = "GoblinEars.Object"
 bone_idx = 21
 
@@ -5544,7 +5544,7 @@ mesh = SubResource("ArrayMesh_45dk0")
 skeleton = NodePath("")
 
 [node name="GoblinSwordHelmet_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, 0.000525003, 0.88, 8.33534e-08)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, -0.000865926, 0.88, 0.00017234)
 bone_name = "GoblinSwordHelmet.Object"
 bone_idx = 22
 
@@ -5553,7 +5553,7 @@ mesh = SubResource("ArrayMesh_gmdcq")
 skeleton = NodePath("")
 
 [node name="NeutralEyebrows_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, -0.0692219, 0.906071, -0.155102)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, -0.118613, 0.906032, -0.122543)
 bone_name = "NeutralEyebrows.Object"
 bone_idx = 23
 
@@ -5562,7 +5562,7 @@ mesh = SubResource("ArrayMesh_l8675")
 skeleton = NodePath("")
 
 [node name="NeutralMouth_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(0.999998, 0.00102083, -0.00146025, -0.00102083, 0.999999, 1.35528e-06, 0.00146025, 1.3499e-07, 0.999999, 0.000688886, 0.782999, -0.18)
+transform = Transform3D(0.942564, 0.000266985, 0.334027, -0.000251638, 1, -8.92143e-05, -0.334027, 3.6157e-08, 0.942564, -0.0610166, 0.783016, -0.169489)
 bone_name = "NeutralMouth.Object"
 bone_idx = 24
 
@@ -5571,7 +5571,7 @@ mesh = SubResource("ArrayMesh_rncme")
 skeleton = NodePath("")
 
 [node name="GoblinSword_Object" type="BoneAttachment3D" parent="GoblinTemplate_Skeleton/Skeleton3D"]
-transform = Transform3D(1, 0.00102021, -1.6321e-07, -0.00102021, 1, 1.77637e-07, 1.63313e-07, -1.77316e-07, 1, 0.174015, 0.303892, 0.00300012)
+transform = Transform3D(1, 0.000266358, -1.63412e-07, -0.000266358, 1, 2.76528e-07, 1.63406e-07, -2.76037e-07, 1, 0.174065, 0.304023, 0.00300013)
 bone_name = "GoblinSword.Object"
 bone_idx = 32
 
@@ -5589,7 +5589,7 @@ skin = SubResource("Skin_erma8")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_ih40x")
+&"": SubResource("AnimationLibrary_ih40x")
 }
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
