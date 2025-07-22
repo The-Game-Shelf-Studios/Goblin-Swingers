@@ -137,8 +137,11 @@ func CheckForLookedAtEnemy() -> void:
 	pass
 
 func PickupTargetGobbo(targetGobbo: Object) -> void:
-	targetGobbo.GetPickedUp()
-	SpawnWeaponInHand()
+	if !targetGobbo.Died:
+		targetGobbo.GetPickedUp()
+		SpawnWeaponInHand()
+	else:
+		print("Pickup Failed")
 	pass
 # Called When throwing goblin
 
@@ -215,6 +218,11 @@ func WinGame() -> void:
 	pass
 
 # Reset Animation
+
+func SetRemainingEnemiesCounter(EnemiesRemaining: int) -> void:
+	$RemainingEnemiesCounter.text = var_to_str(EnemiesRemaining)
+	pass
+	
 func _on_animation_player_animation_finished(anim_name: StringName) -> void:
 	if anim_name != "OrcPoses":
 		animation_player.play("OrcPoses", -1,1, true) ## This sets it to the final frame of the OrcPoses anim

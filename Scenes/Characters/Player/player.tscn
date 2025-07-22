@@ -3736,6 +3736,32 @@ text = "A Winner is you!!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="RemainingEnemies" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 177.0
+offset_top = 22.0
+offset_right = 440.0
+offset_bottom = 131.0
+grow_horizontal = 2
+text = "Remaining Enemies: "
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RemainingEnemiesCounter" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = 281.0
+offset_top = 23.0
+offset_right = 544.0
+offset_bottom = 132.0
+grow_horizontal = 2
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="LoserLabel" type="Label" parent="."]
 anchors_preset = 5
 anchor_left = 0.5

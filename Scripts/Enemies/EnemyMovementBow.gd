@@ -18,7 +18,7 @@ extends CharacterBody3D
 @onready var nav_agent = $NavigationAgent3D
 @onready var LevelHandler = $"../../LevelCompletionHandler"
 @onready var myHurtSoundMaker = $HurtSoundMaker
-var died: bool = false
+var Died: bool = false
 var PlayerTargetPosition
 var EscapePoint: Vector3
 var isMoving = false
@@ -35,7 +35,7 @@ func _ready() -> void:
 	#print("idle on")
 
 func _process(delta: float) -> void:
-	if !died:
+	if !Died:
 		if PlayerNode != null:
 			if MyPlayerTracker.PlayerRelativeDistance <= SightRange && MyPlayerTracker.PlayerRelativeDistance >= AttackRange:
 				PlayerSeen = true
@@ -76,7 +76,8 @@ func TakeDamage(damage: int) -> void:
 	Health = Health - damage
 	PlayHurtSound()
 	if Health <= 0:
-		Die()
+		if !Died:
+			Die()
 	pass
 
 
@@ -85,6 +86,7 @@ func Die() -> void:
 	LevelHandler.GobbosRemaining = LevelHandler.GobbosRemaining - 1
 	print ("remaining gobbos", LevelHandler.GobbosRemaining)
 	myAnimTree.set("parameters/conditions/IsDead", true)
+	Died = true
 	pass
 
 func MoveTowardsPlayer() -> void:

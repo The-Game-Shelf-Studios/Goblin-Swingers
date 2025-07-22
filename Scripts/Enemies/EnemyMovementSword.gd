@@ -20,7 +20,7 @@ var isMoving = false
 var isAttacking = true
 var PlayerSeen = false
 var PlayerIsUnobstructed
-var died: bool = false
+var Died: bool = false
 
 func _ready() -> void:
 	PlayerSeen = false
@@ -30,7 +30,7 @@ func _ready() -> void:
 	#print("idle on")
 
 func _process(delta: float) -> void:
-	if !died:
+	if !Died:
 	
 		if PlayerNode != null:
 			if MyPlayerTracker.PlayerRelativeDistance <= SightRange && MyPlayerTracker.PlayerRelativeDistance >= AttackRange:
@@ -82,7 +82,8 @@ func TakeDamage(damage: int) -> void:
 	Health = Health - damage
 	myHurtSoundMaker.play()
 	if Health <= 0:
-		Die()
+		if !Died:
+			Die()
 	pass
 
 func GetPickedUp() -> void:
@@ -98,6 +99,7 @@ func Die() -> void:
 	LevelHandler.GobbosRemaining = LevelHandler.GobbosRemaining - 1
 	print ("remaining gobbos", LevelHandler.GobbosRemaining)
 	myAnimTree.set("parameters/conditions/IsDead", true)
+	Died = true
 	pass
 
 func DealDamageToPlayer() -> void:
