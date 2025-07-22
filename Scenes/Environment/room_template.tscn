@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://c3log3dnq3lfb"]
 
-[ext_resource type="Script" path="res://Scripts/RoomScripts/Room.gd" id="1_4buox"]
+[ext_resource type="Script" uid="uid://4y42acpyd5g6" path="res://Scripts/RoomScripts/Room.gd" id="1_4buox"]
 [ext_resource type="PackedScene" uid="uid://cr5tbmvafii63" path="res://Scenes/Environment/doorway.tscn" id="1_b7jeh"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_r2j6u"]

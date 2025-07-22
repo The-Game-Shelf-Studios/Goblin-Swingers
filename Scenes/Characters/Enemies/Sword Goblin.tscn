@@ -1,7 +1,7 @@
 [gd_scene load_steps=116 format=4 uid="uid://cye0yvx322c16"]
 
-[ext_resource type="Script" path="res://Scripts/Enemies/EnemyMovementSword.gd" id="1_trwu6"]
-[ext_resource type="Script" path="res://Scripts/Enemies/player_tracker_node.gd" id="3_lnkky"]
+[ext_resource type="Script" uid="uid://vfaprpudetcp" path="res://Scripts/Enemies/EnemyMovementSword.gd" id="1_trwu6"]
+[ext_resource type="Script" uid="uid://c6bp6n2pmkgih" path="res://Scripts/Enemies/player_tracker_node.gd" id="3_lnkky"]
 [ext_resource type="Material" uid="uid://c7ireh7m53ghd" path="res://Assets/Materials/Goblins and Player/GoblinGold.tres" id="3_lrhbi"]
 [ext_resource type="Material" uid="uid://bmpvbvrscwc0f" path="res://Assets/Materials/Goblins and Player/GoblinBrown.tres" id="4_tnwnp"]
 [ext_resource type="Material" uid="uid://cpcu7luqhw23j" path="res://Assets/Materials/Goblins and Player/GoblinBlack.tres" id="5_gbdls"]
@@ -11,7 +11,7 @@
 [ext_resource type="Material" uid="uid://l1n0s24gwru1" path="res://Assets/Materials/Goblins and Player/GoblinGray1.tres" id="9_3oxjc"]
 [ext_resource type="Material" uid="uid://7mpmfoia48c2" path="res://Assets/Materials/Goblins and Player/SwordGoblin/GoblinRed3.tres" id="10_owgv6"]
 [ext_resource type="Material" uid="uid://c7khcdqjqivo1" path="res://Assets/Materials/Goblins and Player/SwordGoblin/GoblinRed2.tres" id="11_nuiii"]
-[ext_resource type="Script" path="res://Scripts/Utilities/hit_box.gd" id="12_2wc3y"]
+[ext_resource type="Script" uid="uid://bks7rprp5uy5q" path="res://Scripts/Utilities/hit_box.gd" id="12_2wc3y"]
 [ext_resource type="AudioStream" uid="uid://d2u5j1gh3j21" path="res://Assets/sounds/Voice Lines/Sword Goblin/Being Hit/Being Hit 1.mp3" id="13_2icfr"]
 [ext_resource type="AudioStream" uid="uid://dm6gnpbl51qfu" path="res://Assets/sounds/Voice Lines/Sword Goblin/Being Hit/Being Hit 2.mp3" id="14_f21s7"]
 [ext_resource type="AudioStream" uid="uid://cedg5h3cryv27" path="res://Assets/sounds/Voice Lines/Sword Goblin/Being Hit/Being Hit 11.mp3" id="15_s7m12"]
@@ -5040,26 +5040,26 @@ tracks/29/keys = PackedFloat32Array(0, 1, -0.707106, -6.97622e-06, -6.03845e-06,
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_ih40x"]
 _data = {
-"Goblin Poses": SubResource("Animation_n5fb3"),
-"Goblin Poses_001": SubResource("Animation_fqicj"),
-"GoblinAttack1": SubResource("Animation_ow6bt"),
-"GoblinAttack2": SubResource("Animation_i88ue"),
-"GoblinBeingSwung1": SubResource("Animation_ih7at"),
-"GoblinDeath": SubResource("Animation_kcu84"),
-"GoblinGrab1Alive": SubResource("Animation_ldf8s"),
-"GoblinGrab1Dead": SubResource("Animation_u450h"),
-"GoblinGrab2Dead": SubResource("Animation_df2vk"),
-"GoblinRangedIdle": SubResource("Animation_kdigs"),
-"GoblinRangedRun": SubResource("Animation_72uwm"),
-"GoblinRanggedAttack": SubResource("Animation_iitx7"),
-"GoblinRun": SubResource("Animation_obifs"),
-"GoblinSwordIdle": SubResource("Animation_jnp7f"),
-"OrcCrossbowGrab": SubResource("Animation_r8vow"),
-"OrcCrossbowShoot": SubResource("Animation_jepqg"),
-"OrcLeftHandPunch": SubResource("Animation_eggr6"),
-"OrcPoses": SubResource("Animation_k0nf0"),
-"OrcSwordGrab": SubResource("Animation_1gsnv"),
-"OrcSwordSwing": SubResource("Animation_ver2v")
+&"Goblin Poses": SubResource("Animation_n5fb3"),
+&"Goblin Poses_001": SubResource("Animation_fqicj"),
+&"GoblinAttack1": SubResource("Animation_ow6bt"),
+&"GoblinAttack2": SubResource("Animation_i88ue"),
+&"GoblinBeingSwung1": SubResource("Animation_ih7at"),
+&"GoblinDeath": SubResource("Animation_kcu84"),
+&"GoblinGrab1Alive": SubResource("Animation_ldf8s"),
+&"GoblinGrab1Dead": SubResource("Animation_u450h"),
+&"GoblinGrab2Dead": SubResource("Animation_df2vk"),
+&"GoblinRangedIdle": SubResource("Animation_kdigs"),
+&"GoblinRangedRun": SubResource("Animation_72uwm"),
+&"GoblinRanggedAttack": SubResource("Animation_iitx7"),
+&"GoblinRun": SubResource("Animation_obifs"),
+&"GoblinSwordIdle": SubResource("Animation_jnp7f"),
+&"OrcCrossbowGrab": SubResource("Animation_r8vow"),
+&"OrcCrossbowShoot": SubResource("Animation_jepqg"),
+&"OrcLeftHandPunch": SubResource("Animation_eggr6"),
+&"OrcPoses": SubResource("Animation_k0nf0"),
+&"OrcSwordGrab": SubResource("Animation_1gsnv"),
+&"OrcSwordSwing": SubResource("Animation_ver2v")
 }
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_oefpe"]
@@ -5618,7 +5618,7 @@ surface_material_override/1 = ExtResource("10_owgv6")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_ih40x")
+&"": SubResource("AnimationLibrary_ih40x")
 }
 
 [node name="AnimationTree" type="AnimationTree" parent="."]

@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://clxxdtryn1413"]
 
-[ext_resource type="Script" path="res://Scripts/Enemies/EnemyMovementBomb.gd" id="1_xojf5"]
-[ext_resource type="Script" path="res://Scripts/Enemies/player_tracker_node.gd" id="2_blyx5"]
+[ext_resource type="Script" uid="uid://dsl4rfhv2sag4" path="res://Scripts/Enemies/EnemyMovementBomb.gd" id="1_xojf5"]
+[ext_resource type="Script" uid="uid://c6bp6n2pmkgih" path="res://Scripts/Enemies/player_tracker_node.gd" id="2_blyx5"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lh82a"]
 

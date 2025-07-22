@@ -1,7 +1,7 @@
 [gd_scene load_steps=9 format=3 uid="uid://clrhwv0e78ck6"]
 
-[ext_resource type="Script" path="res://Scripts/Enemies/EnemyMovementSword.gd" id="1_qo3ys"]
-[ext_resource type="Script" path="res://Scripts/Enemies/player_tracker_node.gd" id="2_0qjq7"]
+[ext_resource type="Script" uid="uid://vfaprpudetcp" path="res://Scripts/Enemies/EnemyMovementSword.gd" id="1_qo3ys"]
+[ext_resource type="Script" uid="uid://c6bp6n2pmkgih" path="res://Scripts/Enemies/player_tracker_node.gd" id="2_0qjq7"]
 [ext_resource type="PackedScene" uid="uid://gavltsmsvff" path="res://Scenes/Utilities/hit_box.tscn" id="3_cegrb"]
 [ext_resource type="PackedScene" uid="uid://dhshjvp00p0le" path="res://Scenes/Utilities/hurt_box.tscn" id="4_ikbws"]
 

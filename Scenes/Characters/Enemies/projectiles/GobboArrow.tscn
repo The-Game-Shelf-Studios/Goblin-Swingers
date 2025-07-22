@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=4 uid="uid://eo0xtv3kdgme"]
 
-[ext_resource type="Script" path="res://Scenes/Characters/Enemies/projectiles/gobbo_arrow.gd" id="1_wtp4g"]
+[ext_resource type="Script" uid="uid://byllvs1s3kw2w" path="res://Scenes/Characters/Enemies/projectiles/gobbo_arrow.gd" id="1_wtp4g"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_23wsa"]
 resource_name = "GoblinEyebrow"
